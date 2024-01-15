@@ -1,0 +1,51 @@
+.alldata {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+.data-item:nth-of-type(even) {
+    background-color: #737aa3;
+    color:black;
+}
+.data-item:nth-of-type(odd) {
+    background-color: #737aa3;
+    color:black
+}
+.offset {
+    margin-left: 5px;
+}
+.bg-main {
+    background-color: #6870a1;
+}
+
+.data-item .transaction:nth-of-type(even) {
+    background-color: unset;
+}
+
+.data-item .transaction:nth-of-type(odd) {
+    background-color: unset;
+}
+
+.padded {
+    padding: 2px;
+}
+
+.transaction {
+    padding-left: 5px;
+}
+
+.transaction:nth-of-type(even) {
+    background-color: #737aa3;
+    color:black
+}
+.transaction:nth-of-type(odd) {
+    background-color: #737aa3;
+    color:black
+}
+.user-name {
+    font-weight: bold;
+    color: #4CAF50; /* verde */
+}
+
+.logout-link {
+    color: #FF0000; /* rojo */
+}
